@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C7A840D1544E3A000E2D682 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7A840C1544E3A000E2D682 /* UIKit.framework */; };
+		6C7A840F1544E3A000E2D682 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7A840E1544E3A000E2D682 /* Foundation.framework */; };
+		6C7A84111544E3A000E2D682 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7A84101544E3A000E2D682 /* CoreGraphics.framework */; };
+		6C7A84171544E3A000E2D682 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A84151544E3A000E2D682 /* InfoPlist.strings */; };
+		6C7A84191544E3A000E2D682 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7A84181544E3A000E2D682 /* main.m */; };
+		6C7A841D1544E3A000E2D682 /* MuybridgeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7A841C1544E3A000E2D682 /* MuybridgeAppDelegate.m */; };
+		6C7A842F1544E3C100E2D682 /* muybridge0.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A84231544E3C100E2D682 /* muybridge0.png */; };
+		6C7A84301544E3C100E2D682 /* muybridge1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A84241544E3C100E2D682 /* muybridge1.png */; };
+		6C7A84311544E3C100E2D682 /* muybridge2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A84251544E3C100E2D682 /* muybridge2.png */; };
+		6C7A84321544E3C100E2D682 /* muybridge3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A84261544E3C100E2D682 /* muybridge3.png */; };
+		6C7A84331544E3C100E2D682 /* muybridge4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A84271544E3C100E2D682 /* muybridge4.png */; };
+		6C7A84341544E3C100E2D682 /* muybridge5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A84281544E3C100E2D682 /* muybridge5.png */; };
+		6C7A84351544E3C100E2D682 /* muybridge6.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A84291544E3C100E2D682 /* muybridge6.png */; };
+		6C7A84361544E3C100E2D682 /* muybridge7.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A842A1544E3C100E2D682 /* muybridge7.png */; };
+		6C7A84371544E3C100E2D682 /* muybridge8.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A842B1544E3C100E2D682 /* muybridge8.png */; };
+		6C7A84381544E3C100E2D682 /* muybridge9.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A842C1544E3C100E2D682 /* muybridge9.png */; };
+		6C7A84391544E3C100E2D682 /* muybridge10.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A842D1544E3C100E2D682 /* muybridge10.png */; };
+		6C7A843A1544E3C100E2D682 /* muybridge11.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A842E1544E3C100E2D682 /* muybridge11.png */; };
+		6C7A843D1544E50700E2D682 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A843B1544E50700E2D682 /* Icon.png */; };
+		6C7A843E1544E50700E2D682 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A843C1544E50700E2D682 /* Icon@2x.png */; };
+		6C7A84401544E6C400E2D682 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A843F1544E6C400E2D682 /* Default.png */; };
+		6C804FD01544EA8D001E317B /* Slide0.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C804FCF1544EA8D001E317B /* Slide0.m */; };
+		6C804FDB1544ECA6001E317B /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C804FDA1544ECA5001E317B /* View.m */; };
+		6C804FDE1544EE0F001E317B /* Slide1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C804FDD1544EE0F001E317B /* Slide1.m */; };
+		6C804FE51544FD29001E317B /* Slide2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C804FE41544FD29001E317B /* Slide2.m */; };
+		6C804FE81544FD6B001E317B /* Slide3.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C804FE71544FD6B001E317B /* Slide3.m */; };
+		6CC755541547A42500BE3936 /* Slide4.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC755531547A42500BE3936 /* Slide4.m */; };
+		6CC755581547A45400BE3936 /* Slide5.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC755571547A45300BE3936 /* Slide5.m */; };
+		6CC7555B1547A47E00BE3936 /* Slide6.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC7555A1547A47D00BE3936 /* Slide6.m */; };
+		6CC7555E1547A49C00BE3936 /* Slide7.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC7555D1547A49C00BE3936 /* Slide7.m */; };
+		6CC755611547A59D00BE3936 /* Slide8.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC755601547A59D00BE3936 /* Slide8.m */; };
+		6CC755641547A5D200BE3936 /* Slide9.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC755631547A5D200BE3936 /* Slide9.m */; };
+		6CC755671547A5ED00BE3936 /* Slide10.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC755661547A5ED00BE3936 /* Slide10.m */; };
+		6CC7556A1547A60B00BE3936 /* Slide11.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC755691547A60B00BE3936 /* Slide11.m */; };
+		6CC7556D1547A62800BE3936 /* Slide12.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC7556C1547A62800BE3936 /* Slide12.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C7A84081544E3A000E2D682 /* Muybridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muybridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7A840C1544E3A000E2D682 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6C7A840E1544E3A000E2D682 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C7A84101544E3A000E2D682 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6C7A84141544E3A000E2D682 /* Muybridge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Muybridge-Info.plist"; sourceTree = "<group>"; };
+		6C7A84161544E3A000E2D682 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C7A84181544E3A000E2D682 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C7A841A1544E3A000E2D682 /* Muybridge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Muybridge-Prefix.pch"; sourceTree = "<group>"; };
+		6C7A841B1544E3A000E2D682 /* MuybridgeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MuybridgeAppDelegate.h; sourceTree = "<group>"; };
+		6C7A841C1544E3A000E2D682 /* MuybridgeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuybridgeAppDelegate.m; sourceTree = "<group>"; };
+		6C7A84231544E3C100E2D682 /* muybridge0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muybridge0.png; sourceTree = "<group>"; };
+		6C7A84241544E3C100E2D682 /* muybridge1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muybridge1.png; sourceTree = "<group>"; };
+		6C7A84251544E3C100E2D682 /* muybridge2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muybridge2.png; sourceTree = "<group>"; };
+		6C7A84261544E3C100E2D682 /* muybridge3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muybridge3.png; sourceTree = "<group>"; };
+		6C7A84271544E3C100E2D682 /* muybridge4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muybridge4.png; sourceTree = "<group>"; };
+		6C7A84281544E3C100E2D682 /* muybridge5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muybridge5.png; sourceTree = "<group>"; };
+		6C7A84291544E3C100E2D682 /* muybridge6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muybridge6.png; sourceTree = "<group>"; };
+		6C7A842A1544E3C100E2D682 /* muybridge7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muybridge7.png; sourceTree = "<group>"; };
+		6C7A842B1544E3C100E2D682 /* muybridge8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muybridge8.png; sourceTree = "<group>"; };
+		6C7A842C1544E3C100E2D682 /* muybridge9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muybridge9.png; sourceTree = "<group>"; };
+		6C7A842D1544E3C100E2D682 /* muybridge10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muybridge10.png; sourceTree = "<group>"; };
+		6C7A842E1544E3C100E2D682 /* muybridge11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muybridge11.png; sourceTree = "<group>"; };
+		6C7A843B1544E50700E2D682 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6C7A843C1544E50700E2D682 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		6C7A843F1544E6C400E2D682 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6C804FCE1544EA8C001E317B /* Slide0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slide0.h; sourceTree = "<group>"; };
+		6C804FCF1544EA8D001E317B /* Slide0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slide0.m; sourceTree = "<group>"; };
+		6C804FD91544ECA5001E317B /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		6C804FDA1544ECA5001E317B /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		6C804FDC1544EE0F001E317B /* Slide1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slide1.h; sourceTree = "<group>"; };
+		6C804FDD1544EE0F001E317B /* Slide1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slide1.m; sourceTree = "<group>"; };
+		6C804FE31544FD28001E317B /* Slide2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slide2.h; sourceTree = "<group>"; };
+		6C804FE41544FD29001E317B /* Slide2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slide2.m; sourceTree = "<group>"; };
+		6C804FE61544FD6A001E317B /* Slide3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slide3.h; sourceTree = "<group>"; };
+		6C804FE71544FD6B001E317B /* Slide3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slide3.m; sourceTree = "<group>"; };
+		6CC755521547A42500BE3936 /* Slide4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slide4.h; sourceTree = "<group>"; };
+		6CC755531547A42500BE3936 /* Slide4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slide4.m; sourceTree = "<group>"; };
+		6CC755561547A45300BE3936 /* Slide5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slide5.h; sourceTree = "<group>"; };
+		6CC755571547A45300BE3936 /* Slide5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slide5.m; sourceTree = "<group>"; };
+		6CC755591547A47D00BE3936 /* Slide6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slide6.h; sourceTree = "<group>"; };
+		6CC7555A1547A47D00BE3936 /* Slide6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slide6.m; sourceTree = "<group>"; };
+		6CC7555C1547A49B00BE3936 /* Slide7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slide7.h; sourceTree = "<group>"; };
+		6CC7555D1547A49C00BE3936 /* Slide7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slide7.m; sourceTree = "<group>"; };
+		6CC7555F1547A59D00BE3936 /* Slide8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slide8.h; sourceTree = "<group>"; };
+		6CC755601547A59D00BE3936 /* Slide8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slide8.m; sourceTree = "<group>"; };
+		6CC755621547A5D200BE3936 /* Slide9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slide9.h; sourceTree = "<group>"; };
+		6CC755631547A5D200BE3936 /* Slide9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slide9.m; sourceTree = "<group>"; };
+		6CC755651547A5EC00BE3936 /* Slide10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slide10.h; sourceTree = "<group>"; };
+		6CC755661547A5ED00BE3936 /* Slide10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slide10.m; sourceTree = "<group>"; };
+		6CC755681547A60B00BE3936 /* Slide11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slide11.h; sourceTree = "<group>"; };
+		6CC755691547A60B00BE3936 /* Slide11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slide11.m; sourceTree = "<group>"; };
+		6CC7556B1547A62800BE3936 /* Slide12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slide12.h; sourceTree = "<group>"; };
+		6CC7556C1547A62800BE3936 /* Slide12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slide12.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C7A84051544E3A000E2D682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7A840D1544E3A000E2D682 /* UIKit.framework in Frameworks */,
+				6C7A840F1544E3A000E2D682 /* Foundation.framework in Frameworks */,
+				6C7A84111544E3A000E2D682 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C7A83FD1544E3A000E2D682 = {
+			isa = PBXGroup;
+			children = (
+				6C7A84121544E3A000E2D682 /* Muybridge */,
+				6C7A840B1544E3A000E2D682 /* Frameworks */,
+				6C7A84091544E3A000E2D682 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C7A84091544E3A000E2D682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C7A84081544E3A000E2D682 /* Muybridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C7A840B1544E3A000E2D682 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C7A840C1544E3A000E2D682 /* UIKit.framework */,
+				6C7A840E1544E3A000E2D682 /* Foundation.framework */,
+				6C7A84101544E3A000E2D682 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C7A84121544E3A000E2D682 /* Muybridge */ = {
+			isa = PBXGroup;
+			children = (
+				6C7A841B1544E3A000E2D682 /* MuybridgeAppDelegate.h */,
+				6C7A841C1544E3A000E2D682 /* MuybridgeAppDelegate.m */,
+				6C804FD91544ECA5001E317B /* View.h */,
+				6C804FDA1544ECA5001E317B /* View.m */,
+				6C804FCE1544EA8C001E317B /* Slide0.h */,
+				6C804FCF1544EA8D001E317B /* Slide0.m */,
+				6C804FDC1544EE0F001E317B /* Slide1.h */,
+				6C804FDD1544EE0F001E317B /* Slide1.m */,
+				6C804FE31544FD28001E317B /* Slide2.h */,
+				6C804FE41544FD29001E317B /* Slide2.m */,
+				6C804FE61544FD6A001E317B /* Slide3.h */,
+				6C804FE71544FD6B001E317B /* Slide3.m */,
+				6CC755521547A42500BE3936 /* Slide4.h */,
+				6CC755531547A42500BE3936 /* Slide4.m */,
+				6CC755561547A45300BE3936 /* Slide5.h */,
+				6CC755571547A45300BE3936 /* Slide5.m */,
+				6CC755591547A47D00BE3936 /* Slide6.h */,
+				6CC7555A1547A47D00BE3936 /* Slide6.m */,
+				6CC7555C1547A49B00BE3936 /* Slide7.h */,
+				6CC7555D1547A49C00BE3936 /* Slide7.m */,
+				6CC7555F1547A59D00BE3936 /* Slide8.h */,
+				6CC755601547A59D00BE3936 /* Slide8.m */,
+				6CC755621547A5D200BE3936 /* Slide9.h */,
+				6CC755631547A5D200BE3936 /* Slide9.m */,
+				6CC755651547A5EC00BE3936 /* Slide10.h */,
+				6CC755661547A5ED00BE3936 /* Slide10.m */,
+				6CC755681547A60B00BE3936 /* Slide11.h */,
+				6CC755691547A60B00BE3936 /* Slide11.m */,
+				6CC7556B1547A62800BE3936 /* Slide12.h */,
+				6CC7556C1547A62800BE3936 /* Slide12.m */,
+				6C7A84131544E3A000E2D682 /* Supporting Files */,
+			);
+			path = Muybridge;
+			sourceTree = "<group>";
+		};
+		6C7A84131544E3A000E2D682 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C7A843F1544E6C400E2D682 /* Default.png */,
+				6C7A843B1544E50700E2D682 /* Icon.png */,
+				6C7A843C1544E50700E2D682 /* Icon@2x.png */,
+				6C7A84231544E3C100E2D682 /* muybridge0.png */,
+				6C7A84241544E3C100E2D682 /* muybridge1.png */,
+				6C7A84251544E3C100E2D682 /* muybridge2.png */,
+				6C7A84261544E3C100E2D682 /* muybridge3.png */,
+				6C7A84271544E3C100E2D682 /* muybridge4.png */,
+				6C7A84281544E3C100E2D682 /* muybridge5.png */,
+				6C7A84291544E3C100E2D682 /* muybridge6.png */,
+				6C7A842A1544E3C100E2D682 /* muybridge7.png */,
+				6C7A842B1544E3C100E2D682 /* muybridge8.png */,
+				6C7A842C1544E3C100E2D682 /* muybridge9.png */,
+				6C7A842D1544E3C100E2D682 /* muybridge10.png */,
+				6C7A842E1544E3C100E2D682 /* muybridge11.png */,
+				6C7A84141544E3A000E2D682 /* Muybridge-Info.plist */,
+				6C7A84151544E3A000E2D682 /* InfoPlist.strings */,
+				6C7A84181544E3A000E2D682 /* main.m */,
+				6C7A841A1544E3A000E2D682 /* Muybridge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C7A84071544E3A000E2D682 /* Muybridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7A84201544E3A000E2D682 /* Build configuration list for PBXNativeTarget "Muybridge" */;
+			buildPhases = (
+				6C7A84041544E3A000E2D682 /* Sources */,
+				6C7A84051544E3A000E2D682 /* Frameworks */,
+				6C7A84061544E3A000E2D682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Muybridge;
+			productName = Muybridge;
+			productReference = 6C7A84081544E3A000E2D682 /* Muybridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C7A83FF1544E3A000E2D682 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Muybridge;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "rudypospisil@gmail.com";
+			};
+			buildConfigurationList = 6C7A84021544E3A000E2D682 /* Build configuration list for PBXProject "Muybridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6C7A83FD1544E3A000E2D682;
+			productRefGroup = 6C7A84091544E3A000E2D682 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C7A84071544E3A000E2D682 /* Muybridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C7A84061544E3A000E2D682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7A84171544E3A000E2D682 /* InfoPlist.strings in Resources */,
+				6C7A842F1544E3C100E2D682 /* muybridge0.png in Resources */,
+				6C7A84301544E3C100E2D682 /* muybridge1.png in Resources */,
+				6C7A84311544E3C100E2D682 /* muybridge2.png in Resources */,
+				6C7A84321544E3C100E2D682 /* muybridge3.png in Resources */,
+				6C7A84331544E3C100E2D682 /* muybridge4.png in Resources */,
+				6C7A84341544E3C100E2D682 /* muybridge5.png in Resources */,
+				6C7A84351544E3C100E2D682 /* muybridge6.png in Resources */,
+				6C7A84361544E3C100E2D682 /* muybridge7.png in Resources */,
+				6C7A84371544E3C100E2D682 /* muybridge8.png in Resources */,
+				6C7A84381544E3C100E2D682 /* muybridge9.png in Resources */,
+				6C7A84391544E3C100E2D682 /* muybridge10.png in Resources */,
+				6C7A843A1544E3C100E2D682 /* muybridge11.png in Resources */,
+				6C7A843D1544E50700E2D682 /* Icon.png in Resources */,
+				6C7A843E1544E50700E2D682 /* Icon@2x.png in Resources */,
+				6C7A84401544E6C400E2D682 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C7A84041544E3A000E2D682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7A84191544E3A000E2D682 /* main.m in Sources */,
+				6C7A841D1544E3A000E2D682 /* MuybridgeAppDelegate.m in Sources */,
+				6C804FD01544EA8D001E317B /* Slide0.m in Sources */,
+				6C804FDB1544ECA6001E317B /* View.m in Sources */,
+				6C804FDE1544EE0F001E317B /* Slide1.m in Sources */,
+				6C804FE51544FD29001E317B /* Slide2.m in Sources */,
+				6C804FE81544FD6B001E317B /* Slide3.m in Sources */,
+				6CC755541547A42500BE3936 /* Slide4.m in Sources */,
+				6CC755581547A45400BE3936 /* Slide5.m in Sources */,
+				6CC7555B1547A47E00BE3936 /* Slide6.m in Sources */,
+				6CC7555E1547A49C00BE3936 /* Slide7.m in Sources */,
+				6CC755611547A59D00BE3936 /* Slide8.m in Sources */,
+				6CC755641547A5D200BE3936 /* Slide9.m in Sources */,
+				6CC755671547A5ED00BE3936 /* Slide10.m in Sources */,
+				6CC7556A1547A60B00BE3936 /* Slide11.m in Sources */,
+				6CC7556D1547A62800BE3936 /* Slide12.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C7A84151544E3A000E2D682 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7A84161544E3A000E2D682 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C7A841E1544E3A000E2D682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C7A841F1544E3A000E2D682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C7A84211544E3A000E2D682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Muybridge/Muybridge-Prefix.pch";
+				INFOPLIST_FILE = "Muybridge/Muybridge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6C7A84221544E3A000E2D682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Muybridge/Muybridge-Prefix.pch";
+				INFOPLIST_FILE = "Muybridge/Muybridge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C7A84021544E3A000E2D682 /* Build configuration list for PBXProject "Muybridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7A841E1544E3A000E2D682 /* Debug */,
+				6C7A841F1544E3A000E2D682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C7A84201544E3A000E2D682 /* Build configuration list for PBXNativeTarget "Muybridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7A84211544E3A000E2D682 /* Debug */,
+				6C7A84221544E3A000E2D682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C7A83FF1544E3A000E2D682 /* Project object */;
+}
